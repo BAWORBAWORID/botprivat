@@ -45,7 +45,10 @@ const { cttl } = require('./baseikal/virtex/cttl')
 const { tizi } = require('./baseikal/virtex/tizi')
 const { weg } = require('./baseikal/virtex/weg')
 const { virtex7 } = require('./baseikal/virtex/virtex7')
+<<<<<<< HEAD
 const { ganas } = require('./baseikal/virtex/ganas')
+=======
+>>>>>>> 3038a11 (UPDATE V1)
 /*
 =================================================
 =================================================
@@ -2802,6 +2805,25 @@ let res = await facebook(text)
 let ghd = await haikal.sendMessage(from,{video:{url: res.url[0].url},caption: "𝙎𝙪𝙠𝙨𝙚𝙨 ✅"},{quoted:m})
 }
 break
+<<<<<<< HEAD
+=======
+
+case "mediafire":{
+if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
+await loading()
+if (!text) return m.reply('Link nya kak?\n\nContoh : .mediafire link')
+m.reply('*Sabar Cuy Loading*')
+let anu = await fetchJson('https://zero-api.fazza-fabianfab.repl.co/api/dowloader/mediafire?url=${text}&apikey=Admin')
+for (let res of anu.results) {
+haikal.sendMessage(from, { document: { url: res.url }, mimetype: 'application/vnd.android.package-archive', fileName: `${res.filename}` caption: 'Sukses Download' }, { quoted : m })
+}
+
+}break
+
+
+
+
+>>>>>>> 3038a11 (UPDATE V1)
 //=================================================//
 case "igvideo": case "igreels":{
 if (isBan) return m.reply('*Lu Di Ban Owner Gak Usah Sok asik Tolol*')
