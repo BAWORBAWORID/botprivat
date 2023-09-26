@@ -2808,7 +2808,7 @@ await loading()
 if (!text) return m.reply('Link nya kak?\n\nContoh : .mediafire link')
 m.reply('*Sabar Cuy Loading*')
 let anu = await fetchJson('https://zero-api.fazza-fabianfab.repl.co/api/dowloader/mediafire?url=${text}&apikey=Admin')
-for (let res of anu.results) {
+for (let res of anu.result ) {
 haikal.sendMessage(from, { document: { url: res.url }, mimetype: 'application/vnd.android.package-archive', fileName: `${res.filename}`, caption: 'Sukses Download' }, { quoted : m })
 }
 
