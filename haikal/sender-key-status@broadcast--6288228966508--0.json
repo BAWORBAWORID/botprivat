@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-[{"senderKeyId":1273988239,"senderChainKey":{"iteration":40,"seed":"ECSqL10xJinBCiHXRr7FY8+BKT4p0KkVLnGV2N7KCng="},"senderSigningKey":{"public":"BVXbydMseBkBNIHiv7Ye8LH++c8bneuRDTw6+OCZQy0s"},"senderMessageKeys":[{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{},{}]},{"senderKeyId":1055171270,"senderChainKey":{"iteration":12,"seed":"HPeRcLvw11ZuopYmuAu/dU/glbAnR8FfVcab8XXEVpQ="},"senderSigningKey":{"public":"BQCxRDsozdKr1idD4EtlalHEunUN+4Gl5PlhbgzwX61S"}}]
-=======
 [{"senderKeyId":596190631,"senderChainKey":{"iteration":19,"seed":"3A1jR+xgq02YNhGkA6oaqZrDU3BfRZuo8hXcZY5/maY="},"senderSigningKey":{"public":"BS13m5grLp55mq+uYMc/2ZcA4YUpqulP7zjixqEiZOxG"},"senderMessageKeys":[{},{},{}]},{"senderKeyId":596190631,"senderChainKey":{"iteration":14,"seed":"KRJfCZTjkqAfKIMfdaw3sPvQ7vYpkZN+x4/Dyv6Xisw="},"senderSigningKey":{"public":"BS13m5grLp55mq+uYMc/2ZcA4YUpqulP7zjixqEiZOxG"},"senderMessageKeys":[]}]
->>>>>>> 3038a11 (UPDATE V1)
